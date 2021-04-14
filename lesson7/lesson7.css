@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+div img{
+    width: 300px;
+}
+.bg-img{
+    background-image: url(https://www.petassure.com/petassure/file-streams/page/gyyyeLBsy9JBzjL7K01SFQ0rare-cat-breed-the-scottish-fold.jpg.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 30px;
+}
+.col{
+    width: 33.33333333%;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid rgba(7, 7, 7, 0.342);
+    box-shadow: 2px 0px 10px 0px #060606a6;
+}
+div a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #091fee;
+    padding: 10px 50px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 15px;
+    
+    
+}
+.inner-txt{
+    padding: 0 15px;
+}
