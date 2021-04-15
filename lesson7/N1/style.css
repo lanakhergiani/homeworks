@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.menu li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 5px;
+
+}
+.menu a{
+text-decoration: none;
+color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: #2096f5;
+    
+    
+}
+
+.text{
+    text-align: center;
+    padding: 50px 0;
+}
+.txt{
+    font-size: 30px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.main{
+    text-align: center;
+    margin: 0 10px;
+}
+.columns{
+    display: flex;
+}
+.inner-text p{
+    padding: 0 20px;
+}
+i{
+    font-size: 50px;
+    color: #2096f5;
+}
+.txt span{
+    color: #2096f5;
+}
+
+
+
+
