@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+
+}
+.card{
+    margin: auto;
+    width: 350px;
+    box-shadow:  0px 1px 20px #1f1d1d85;
+}
+.image{
+    background-image: url(https://tinypng.com/images/social/website.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#photo{
+    position: absolute;
+    background-color: rgb(117, 117, 62);
+    color: white;
+    bottom: 0;
+    left: 0;
+    padding: 7px;
+}
+#circle{
+    position: absolute;
+    background-color:  rgb(117, 117, 62);
+    color: white;
+    top: 15px;
+    right: 15px;
+    padding: 7px;
+    border-radius: 50%;
+    text-align: center;
+}
+.inner-txt h2{
+ color: red;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 7px;
+}
+.inner-txt{
+    padding: 30px 10px;
+}
+

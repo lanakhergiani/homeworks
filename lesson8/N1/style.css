@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.card{
+    width: 30%;
+    margin: auto;
+    box-shadow:  0px 1px 20px #1f1d1d85;
+}
+.image{
+    background-image: url(https://tinypng.com/images/social/developer-api.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+.color{
+    background-color: rgba(75, 66, 66, 0.397);
+    height: 100%;
+    position: relative;
+    
+}
+.text{
+    text-align: center;
+    position: absolute;
+    bottom: -30px;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bi-heart-fill{
+position: absolute;
+top: 15px;
+right: 15px;
+font-size: 36px;
+color: white;
+}
+.bi-text-left{
+position: absolute;
+top: 15px;
+left: 15px;
+font-size: 36px;
+color: white;
+}
+h2{
+    margin-bottom: 2px;
+}
+h3{
+    margin-top: 0;
+}
+.bi-plus-circle-fill{
+    color: hsl(339deg 92% 52%);
+    font-size: 50px;
+}
+.inner-text{
+display: flex;
+justify-content: space-around;
+padding-top: 50px;
+text-align: center;
+padding-bottom: 30px;
+
+}

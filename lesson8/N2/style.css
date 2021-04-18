@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.card{
+    width: 50%;
+    margin: auto;
+    box-shadow:  0px 1px 20px #1f1d1d85;
+   
+}
+.color{
+    background-color: rgb(0 60 109);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.image img{
+    height: 300px;
+}
+.text{
+   color: white;
+   position: relative;
+}
+h2{
+    position: absolute;
+    bottom: 20px;
+}
+.lower-text{
+position: relative;
+padding: 30px 20px;
+}
+a{
+    text-decoration: none;
+    color:rgb(0 60 109);
+}
+p, a, i, span{
+font-size: 40px;
+}
+span{
+    color: white;
+    background-color:rgb(0 60 109);
+    border-radius: 7px;
+    padding: 5px;
+    position: absolute;
+    right: 25px;
+}
