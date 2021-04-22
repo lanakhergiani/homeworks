@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+   
+}
+*{
+    box-sizing: border-box;
+}
+
+
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    
+}
+.box{
+    width: 22%;
+    height: 100px;
+    background-color: pink;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px rgba(19, 125, 224, 0.753) ;
+
+}
+i{
+    font-size: 60px;
+    color: rgba(19, 125, 224, 0.753);
+}
+@media (max-width: 1000px){
+    .box{
+        width: 30%;
+    }
+}
+@media (max-width: 768px){
+    .box{
+        width: 48%;
+       
+    }
+}
+@media (max-width: 500px){
+    .box{
+        width: 100%;
+    }
+}
+
